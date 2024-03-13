@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+}
+.heading {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+#video-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+
+.result {
+    display: none;
+    display: flex;
+    justify-items: center;
+    margin-left: 600px;
+    padding: 3px 4px 8px;
+    background:thistle;
+    height: 100px;
+    width: 340px;
+    border-radius: 6px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
